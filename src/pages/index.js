@@ -43,7 +43,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Our Mission</h2>
                 </header>
                 <p>
                   Sed lorem ipsum dolor sit amet nullam consequat feugiat
@@ -64,46 +64,51 @@ class Index extends React.Component {
               </span>
             </div>
           </section>
-
+          <section id="about" className="main special">
+            <header className="major">
+              <h2>Our Team</h2>
+              <h3>We are a diverse group of individuals who are deeply concerned about the current direction we taking with data extraction. We believe MyData offers a better, more human solution.</h3>
+            </header>
+            <ul className="actions">
+              <li><Link to="/about" className="button">Learn More</Link></li>
+            </ul>
+          </section>
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Our Focus</h2>
             </header>
-            <ul className="features">
+            <ul className="features focus-points">
               <li>
                 <span className="icon major style1 fa-code" />
-                <h3>Ipsum consequat</h3>
+                <h3>Engagement</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Control over data affects us all. We want our community to reflect that by engaging with all demographics within Scotland.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy" />
-                <h3>Amed sed feugiat</h3>
+                <h3>Education</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  We cannot expect people to change without them understanding the problem. We aim to focus on education of the current state of data and the potential solutions.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond" />
-                <h3>Dolor nullam</h3>
+                <h3>Empowerment</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  We want to be a community that takes action through projects and collaborations to show that the MyData vision is possible.
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+            {/*<footer className="major">*/}
+              {/*<ul className="actions">*/}
+                {/*<li>*/}
+                  {/*<Link to="/generic" className="button">*/}
+                    {/*Learn More*/}
+                  {/*</Link>*/}
+                {/*</li>*/}
+              {/*</ul>*/}
+            {/*</footer>*/}
           </section>
 
           <section id="second" className="main special">
@@ -162,28 +167,12 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Help</h2>
+              <h2>Subscribe</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                Keep up to date with the latest news and events from MyData Scotland
               </p>
               <SubscribeToMailingList/>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </Layout>

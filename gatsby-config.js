@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'YOUR MAILCHIMP FORM ENDPOINT', // add your MC list endpoint here; see instructions below
+        endpoint: 'https://mydata.us20.list-manage.com/subscribe/post?u=7cef1bd5acceb8fd0c70f0739&amp;id=b1f1a60af3', // add your MC list endpoint here; see instructions below
       },
     }
 
